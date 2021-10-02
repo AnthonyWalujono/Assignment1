@@ -17,6 +17,6 @@ data Exp
     | Exponent Exp Exp
     | Num Integer
     | Negative Exp
-    | Absolute Exp
+    | Square Exp
   deriving (C.Eq, C.Ord, C.Show, C.Read)
 

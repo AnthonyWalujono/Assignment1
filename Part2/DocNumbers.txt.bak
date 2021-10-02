@@ -26,8 +26,8 @@ There are no reserved words in numbers.
 
 The symbols used in numbers are the following:
   | + | * | - | /
-  | % | ^ | | | (
-  | ) |  |  |
+  | % | ^ | -( | )
+  | | | ( |  |
 
 ===Comments===
 There are no single-line comments in the grammar.There are no multiple-line comments in the grammar.
@@ -45,7 +45,7 @@ All other symbols are terminals.
   | //Exp1// | -> | //Exp1// ``*`` //Exp2//
   |  |  **|**  | //Exp1// ``/`` //Exp2//
   |  |  **|**  | //Exp1// ``^`` //Exp2//
-  |  |  **|**  | ``-`` //Exp2//
+  |  |  **|**  | ``-(`` //Exp2// ``)``
   |  |  **|**  | ``|`` //Exp1// ``|``
   |  |  **|**  | //Exp2//
   | //Exp2// | -> | //Integer//

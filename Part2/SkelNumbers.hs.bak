@@ -23,4 +23,4 @@ transExp x = case x of
   AbsNumbers.Exponent exp1 exp2 -> failure x
   AbsNumbers.Num integer -> failure x
   AbsNumbers.Negative exp -> failure x
-  AbsNumbers.Absolute exp -> failure x
+  AbsNumbers.Square exp -> failure x

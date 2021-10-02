@@ -16,5 +16,7 @@ calc s =
   let Ok e = pExp (myLexer s) 
   in printTree (eval e)
 
+--bnfc -m -haskell numbers.cf
+--make
 -- ghc Calculator.hs
 -- echo "1+2*3" | ./Calculator
