@@ -56,7 +56,7 @@ evalCBN x = x
 newtype IDM m a = IDM{unIDM :: m}
 
 
-efoldMap :: forall a m. (Data a, Monoid m) => (a -> m) -> a -> m
+efoldMap :: (Data a, Monoid m) => (a -> m) -> a -> m
 efoldMap f x = traverse f x
     where
         traverse :: (Data a, Data b, Monoid m) => (a -> m) -> b -> m
