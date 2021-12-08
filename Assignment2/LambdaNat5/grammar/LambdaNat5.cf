@@ -16,7 +16,7 @@ ETl.       Exp6 ::= "tl" Exp ;
 ELE.       Exp9 ::= Exp10 "less_equal" Exp10 ;
 EPlus.     Exp10 ::= Exp10 "+" Exp11 ;
 EMinus.    Exp10 ::= Exp10 "-" Exp11 ;
-ETimes.    Exp10 ::= Exp11 "*" Exp12 ;
+ETimes.    Exp11 ::= Exp11 "*" Exp12 ;
 
 EApp.      Exp13 ::= Exp13 Exp14 ;  
 

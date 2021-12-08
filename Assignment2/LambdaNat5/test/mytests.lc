@@ -1,0 +1,10 @@
+// mytests.lc
+// uncomment one of lines below and run
+// stack exec LambdaNat-exe test/mytests.lc
+//
+// hd one:two:#
+// hd (one:two):#
+// hd (one:two:#):#
+// (hd one:two:#):#
+// tl one:#
+
