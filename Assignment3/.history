@@ -1,0 +1,16 @@
+:setLang LamMem
+: load round-robin/round-robin.lc
+:setLang LamMem
+:setLang LamMeme
+:setLang LamMem
+setLang LamMem
+:setLang LamMem
+:env
+val a = cons | nil;;
+val a = cons | nil
+nil;;
+:env
+:load test/linked-list.lc
+load test/linked-list.lc
+load test/
+:setLang LamMem

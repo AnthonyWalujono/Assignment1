@@ -1,0 +1,36 @@
+val plustwo = \x. x + 1 + 1;;
+
+-- remove function
+rec remove = \x. \y. case y of {
+
+};;
+
+-- product function
+rec prod = \x. case x of {
+    [] -> 1,
+    (a:as) -> (head x) * prod(tail x)
+};;
+
+-- plus two
+plus_two = \x. case x of {
+    x = plustwo(x)
+};; 
+
+-- map function
+rec map = \x. \y. case y of {
+    [] -> #
+    _ -> (head y) * prod(tail x)
+};;
+
+rec insert = \x. \y. case y of {
+    [] -> (x: #)
+    _ -> case x of{
+        x > (head y) == 1 -> (x: y)
+        _ -> (head y) = (insert x (tail y))
+    }
+}
+
+rec sort = \y. case y of{
+    [] -> #
+    _ -> insert (head y) (sort (tail y))
+}
