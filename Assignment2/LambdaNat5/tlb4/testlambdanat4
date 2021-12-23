@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
     echo ""
     echo ""
     echo -e "\e[31m---start testlambdanat4---\e[0m"
