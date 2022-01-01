@@ -8,8 +8,8 @@
 cd grammar
 
 if [ ! -f TestLambdaNat ] ; then
-      echo -e "\e[31mbnfc -m --haskell LambdaNat4.cf\e[0m"
-    bnfc -m --haskell LambdaNat4.cf
+      echo -e "\e[31mbnfc -m --haskell LambdaNat5.cf\e[0m"
+    bnfc -m --haskell LambdaNat5.cf
       echo -e "\e[31mmake\e[0m"
     make 
 fi
